@@ -2,17 +2,84 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>เว็บไซต์ส่วนตัวของฉัน</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            background-color: #3498db;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #bdc3c7;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
-    <p>นี่คือหน้าแรกของโปรเจกต์</p>
-    <nav>
-        <a href="resume.html">Resume</a> | 
-        <a href="education.html">Education</a>
-    </nav>
-    <hr>
-    <footer>&copy; 2025 My Portfolio Project</footer>
-</body>
+
+    <div class="container">
+        <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+        <p>นี่คือหน้าแรกของโปรเจกต์ : My Personal Portfolio</p>
+        
+        <nav>
+            <a href="resume.html">Resume</a>
+            <a href="education.html">Education</a>
+        </nav>
+
+        <hr>
+        
+        <footer>
+            &copy; 2025 My Portfolio Project <br>
+            Created with MySQL & HTML
+        </footer>
+    </div>
+
 </body>
 </html>
